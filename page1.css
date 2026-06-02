@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: 100px;
+    background-color: green;
+    text-align: center;
+    display: inline-block;
+    position: fixed;
+    z-index: 2; /*layering in code*/
+}
+.header {
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+nav {
+    position: fixed;
+    top: 100px;
+    width: 100%;
+    z-index: 2;
+}
+ul {
+    list-style-type: none;
+    left: 300px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /*does not go behind the height and the width of the container*/
+    background-color: black;
+}
+ul li {
+    float: left; /*shift to the left*/
+}
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul li a:hover {
+    background-color: red;
+}
+footer{
+    position: relative;
+    background-color:#7F5539;
+    color:black;
+    text-align:center;
+    padding:20px;
+    top: 250px;
+} 
+section {
+    position: relative; /*Gave it a position to move it around*/
+    left: 375px;
+    top: 200px; /*no need for #main*/
+    width: 300px;
+    height: 300px;
+    border: solid darkred;
+    display: inline-block;
+    background-size: 300px 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    z-index: 1;
+}
+body {
+    background-color: #1B4332;
+}
+#LAWFULGOOD {
+background-image: url(download\ \(2\).jpg);
+    z-index: 1;
+}
+#NEUTRALGOOD {
+background-image: url(download\ \(3\).jpg);
+    z-index: 1;
+}
+#CHAOTICGOOD {
+background-image: url(download\ \(4\).jpg); /*give url for the pics*/
+    z-index: 1;
+}
+#LAWFULNEUTRAL {
+background-image: url(download\ \(5\).jpg);
+    z-index: 1;
+}
+#TRUENEUTRAL {
+background-image: url(download\ \(6\).jpg);
+    z-index: 1;
+}
+#CHAOTICNEUTRAL {
+background-image: url(download\ \(7\).jpg);
+    z-index: 1;
+}
+#AWFULEVIL {
+background-image: url(download\ \(8\).jpg);
+    z-index: 1;
+}
+#NEUTRALEVIL {
+background-image: url(download\ \(9\).jpg);
+    z-index: 1;
+}
+#CHAOTICEVIL {
+background-image: url(download\ \(10\).jpg);
+    z-index: 1;
+}
